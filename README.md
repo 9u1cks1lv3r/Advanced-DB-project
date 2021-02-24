@@ -66,9 +66,9 @@ Web site on django/python/sqlite
     Search housing</br>
 11. DB: SQLite</br>
     Python: </br>
-    > Back: Django, requests</br> <
-    ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
-    Front: HTML, CSS, JavaScript, Bootstrap, Jinja</br>
+    > Back: Django, requests</br>
+ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
+Front: HTML, CSS, JavaScript, Bootstrap, Jinja</br>
 12. It will be validated by moderator</br>
 13. Any type of devices that supports a browser</br>
 14. Users can estimate his/her/its  neighbour,landlord, housing he/she/it lived, if the user is landlord can estimate renter.</br>
