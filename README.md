@@ -67,7 +67,7 @@ Web site on django/python/sqlite
 11. DB: SQLite</br>
     Python: </br>
     > Back: Django, requests</br>
-    > ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
+    ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
     Front: HTML, CSS, JavaScript, Bootstrap, Jinja</br>
 12. It will be validated by moderator</br>
 13. Any type of devices that supports a browser</br>
