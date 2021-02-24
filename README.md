@@ -30,7 +30,7 @@ Web site on django/python/sqlite
 13. What devices will be supported?</br>
 14. How can a user leave feedback?</br>
 15. What kind of user protection measures will be provided?</br>
-
+ 
 ## General Answers
 1.
 
