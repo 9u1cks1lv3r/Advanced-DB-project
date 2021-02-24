@@ -66,7 +66,7 @@ Web site on django/python/sqlite
     Search housing</br>
 11. DB: SQLite</br>
     Python: </br>
-    > Back: Django, requests</br>
+    > Back: Django, requests</br> <
     ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
     Front: HTML, CSS, JavaScript, Bootstrap, Jinja</br>
 12. It will be validated by moderator</br>
