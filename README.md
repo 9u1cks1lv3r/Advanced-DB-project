@@ -14,7 +14,9 @@ Renting out rooms / apartments for rent<br>
 ### Type of the user-interface, programming language and database server:<br>
 Web site on django/python/sqlite
 
-## General Questions 
+## General
+
+### Questions 
 1. What kind of problem will solve our project? </br>
 2. What features would be useful?</br>
 3. What is the data source?</br>
@@ -31,7 +33,7 @@ Web site on django/python/sqlite
 14. How can a user leave feedback?</br>
 15. What kind of user protection measures will be provided?</br>
  
-## General Answers
+### Answers
 1. Looking for neighbours for less pay for rent and looking for housing for rent</br>
 2. Price of house</br>
    Address</br>
@@ -74,3 +76,5 @@ Web site on django/python/sqlite
 14. Users can estimate his/her/its  neighbour,landlord, housing he/she/it lived, if the user is landlord can estimate renter.</br>
 15. Registration and authentication</br>
 
+## About Dataset
+We are going to pars data from [krisha.kz](https://krisha.kz/arenda/). Our dataset will contains 5-7 thousands tuples.
