@@ -34,19 +34,21 @@ CREATE TABLE Landlord (
 );
 
 CREATE TABLE Housing (
-	housing_Id INTEGER PRIMARY KEY,
-	title TEXT,
-	city TEXT,
-        description TEXT, 
-    	rent_type TEXT, 
-    	housing_type TEXT,
-    	price INTEGER,
-    	year INTEGER,
-    	ceiling_height INTEGER,
-    	material TEXT,
-    	floorOfHousing INTEGER,
-    	numberOfFloor INTEGER,
-    	bathroom INTEGER,
-    	internet BOOL,
-    	balcony INTEGER
+    housing_Id INTEGER PRIMARY KEY,
+    title TEXT, 
+    address TEXT,
+    city TEXT,
+    description TEXT, 
+    square INTEGER,
+    rent_type TEXT, 
+    housing_type TEXT,
+    price INTEGER,
+    year INTEGER,
+    ceiling_height INTEGER,
+    material TEXT,
+    floorOfHousing INTEGER,
+    numberOfFloor INTEGER,
+    bathroom TEXT,
+    internet BOOL,
+    balcony INTEGER
 );
