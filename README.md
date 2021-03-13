@@ -14,7 +14,7 @@ Renting out rooms / apartments for rent<br>
 ### Type of the user-interface, programming language and database server:<br>
 Web site on django/python/sqlite
 
-## General
+## General about Project
 
 ### Questions 
 1. What kind of problem will solve our project? </br>
@@ -75,6 +75,26 @@ Web site on django/python/sqlite
 13. Any type of devices that supports a browser</br>
 14. Users can estimate his/her/its  neighbour,landlord, housing he/she/it lived, if the user is landlord can estimate renter.</br>
 15. Registration and authentication</br>
+
+## General about Queries
+
+### Questions 
+1. How many housings had in Almaty? </br>
+2. What housing has a bigger price where  rent type is by hours? </br>
+3. How many housings with internet ADSL in Nur-Sultan? </br>
+4. What housing is the oldest? </br>
+5. How many flats are rents where material is Kirpich?</br>
+6. What landlord’s full name which rating is 10? </br>
+7. How will the user be added which login is 123, email is asd@gmail.com and password is 123456798 ? </br>
+8. How many housing will have balcony, bathroom will be “совмещенный” and type of rent will be by month?</br>
+9. What kind of information will be gotten if the profile's rating will be 10 and age is greater than 20?</br>
+10. Which landlord can give rent housing which floor of housing is lower than the average of the floor of housing in Almaty?</br>
+11. What is the average price of apartments whose height is higher than the average height of all apartments?</br>
+12. Which landlords have a power of attorney rating greater than the average rating of all landlords whose house is from Almaty?</br>
+13. Which ads have "недорого" in their titles?</br>
+14. Which landlords rent apartments in Almaty?</br>
+15. Which profiles left the landlord report with ID equal to 4?</br>
+
 
 ## About Dataset
 We are going to pars data from [krisha.kz](https://krisha.kz/arenda/). Our dataset will contains 5-7 thousands tuples.
