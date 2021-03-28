@@ -1,3 +1,9 @@
-/*Which profiles left the landlord report with ID equal to 4?*/
-SELECT a.profile_Id FROM Profile a INNER JOIN Review b ON a.profile_Id = b.profile_Id INNER JOIN Landlord c ON b.lanlord_Id = c.lanlord_Id WHERE c.lanlord_Id = 4;
-
+--How to check comics' id is null value or not for Comics table?
+create or replace trigger comics_id_inc 
+    before insert on comics
+    for each row
+begin
+    if :new.comics_id is null then
+        select comics_seq.nextval into :new.comics_id from dual;
+    end if;
+end;
