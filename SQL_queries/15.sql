@@ -1,4 +1,6 @@
 --How to check comics' id is null value or not for Comics table?
+CREATE SEQUENCE comics_seq START WITH 1;
+
 create or replace trigger comics_id_inc 
     before insert on comics
     for each row
