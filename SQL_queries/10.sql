@@ -1,4 +1,6 @@
 --How to check publisher's id is null value or not for Publisher table?
+CREATE SEQUENCE publisher_seq START WITH 1;
+
 create or replace trigger publisher_id_inc 
     before insert on publisher
     for each row
