@@ -2,17 +2,15 @@
 ## Project name - Find.me
 
 ### Project goal and it's benefits:<br>
-The project provides for the search for roommates, as well as the ability to search for rooms / apartments for rent. If you are a landlord then you can arrange a room / apartment for rent.
-
-
-### Project functions and features:<br>
-Search for roommates<br>
-Find rooms / apartments for rent<br>
-Renting out rooms / apartments for rent<br> 
+Our project was created for comic lovers. On this site you can read different comics for<br>
+your taste. We created all the conditions so that the user was not bored and comfortable.<br>
+And we also divided comics by genre and series. You can choose a suitable comic strip<br>
+by genre. Also, you can search comics by Alphabet. If a user for the first time on the site<br>
+needs to register. And then you can already enter by login and password.<br>
 
 
 ### Type of the user-interface, programming language and database server:<br>
-Web site on django/python/sqlite
+Web site on Java EE/ PL/SQL
 
 ## General about Project
 
