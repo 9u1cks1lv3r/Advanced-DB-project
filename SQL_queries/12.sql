@@ -1,3 +1,9 @@
-/*Which landlords have a power of attorney rating greater than the average rating of all landlords whose house is from Almaty?*/
-SELECT landlord_Id FROM Landlord WHERE rating > (SELECT avg(a.rating) FROM Landlord a INNER JOIN housing b ON a.landlord_Id = b.landlord_Id WHERE b.city = ‘Алматы’);
-
+--How to check genre's id is null value or not for Genres table?
+create or replace trigger genres_id_inc 
+    before insert on genres
+    for each row
+begin
+    if :new.GENRES_ID is null then
+        select genres_seq.nextval into :new.GENRES_ID from dual;
+    end if;
+end;
