@@ -1,3 +1,9 @@
-/*Which landlords rent apartments in Almaty?*/
-SELECT DISTINCT a.* FROM Lanlord a INNER JOIN housing b ON a.landlord_Id = b.landlord_Id;
-
+--How to check series' id is null value or not for Series table?
+create or replace trigger series_id_inc 
+    before insert on series
+    for each row
+begin
+    if :new.series_id is null then
+        select series_seq.nextval into :new.series_id from dual;
+    end if;
+end;
