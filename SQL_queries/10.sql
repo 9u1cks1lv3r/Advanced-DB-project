@@ -1,3 +1,9 @@
-/*Which landlord can give rent housing which floor of housing is lower than the average of the floor of housing in Almaty?  */
-SELECT l.landlord_id FROM Landlord l inner join housing h on a.landlordId = b_landlordId WHERE floorOfHousing < (SELECT avg(floorOfHousing) FROM housing WHERE city = “Almaty”)
-
+--How to check publisher's id is null value or not for Publisher table?
+create or replace trigger publisher_id_inc 
+    before insert on publisher
+    for each row
+begin
+    if :new.publisher_id is null then
+        select publisher_seq.nextval into :new.publisher_id from dual;
+    end if;
+end;
