@@ -1,4 +1,6 @@
 --How to check genre's id is null value or not for Genres table?
+CREATE SEQUENCE genres_seq START WITH 1;
+
 create or replace trigger genres_id_inc 
     before insert on genres
     for each row
