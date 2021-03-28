@@ -77,25 +77,21 @@ Web site on Java EE/ PL/SQL
 ## General about Queries
 
 ### Questions 
-1. How many housings had in Almaty? </br>
-2. What housing has a bigger price where  rent type is by hours? </br>
-3. How many housings with internet ADSL in Nur-Sultan? </br>
-4. What housing is the oldest? </br>
-5. How many flats are rents where material is Kirpich?</br>
-6. What landlord’s full name which rating is 10? </br>
-7. How will the user be added which login is 123, email is asd@gmail.com and password is 123456798 ? </br>
-8. How many housing will have balcony, bathroom will be “совмещенный” and type of rent will be by month?</br>
-9. What kind of information will be gotten if the profile's rating will be 10 and age is greater than 20?</br>
-10. Which landlord can give rent housing which floor of housing is lower than the average of the floor of housing in Almaty?</br>
-11. What is the average price of apartments whose height is higher than the average height of all apartments?</br>
-12. Which landlords have a power of attorney rating greater than the average rating of all landlords whose house is from Almaty?</br>
-13. Which ads have "недорого" in their titles?</br>
-14. Which landlords rent apartments in Almaty?</br>
-15. Which profiles left the landlord report with ID equal to 4?</br>
-
-
-## About Dataset
-We are going to pars data from [krisha.kz](https://krisha.kz/arenda/). Our dataset will contains 5-7 thousands tuples.
+1. Which procedure can add different kind of genres? </br>
+2. How can get information about genre of comics? </br>
+3. What will we realize to add user_id and series_id to list? </br>
+4. Which procedure or function helps us with removing certain object in list? </br>
+5. How Users can registrate to the site?</br>
+6. What function should we do to get user id using user's email and user's password? </br>
+7. How update should works with attributes such as comics id, user id and series id? </br>
+8. Which trigger should we use to check existing user's username or email? </br>
+9. Which function helps us to check existing seria in list with attributes such as user's id and series' id?</br>
+10. How to check publisher's id is null value or not for Publisher table? </br>
+11. How to check last_character is null value or not for User_List table?</br>
+12. How to check genre's id is null value or not for Genres table?</br>
+13. How to check user's id is null value or not for Users table?</br>
+14. How to check series' id is null value or not for Series table?</br>
+15. How to check comics' id is null value or not for Comics table?</br>
 
 ## ER-diagram
 
