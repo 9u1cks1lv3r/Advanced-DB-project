@@ -64,11 +64,10 @@ Web site on Java EE/ PL/SQL
 9. Anybody who want to find roommates </br>
 10. Search neighbour</br>
     Search housing</br>
-11. DB: SQLite</br>
-    Front: HTML, CSS, JavaScript, Bootstrap, Jinja</br>
-    Python: </br>
-    >Back: Django, requests</br>
-    >ML and Data Analysis: Pytorch, Numpy, Pandas, Matplotlib</br>
+11. DB: PL/SQL</br>
+    Front: HTML, CSS, JavaScript, Bootstrap, JDBC</br>
+    Java: </br>
+    >Back: JavaEE, Servlet</br>
 12. It will be validated by moderator</br>
 13. Any type of devices that supports a browser</br>
 14. Users can estimate his/her/its  neighbour,landlord, housing he/she/it lived, if the user is landlord can estimate renter.</br>
