@@ -1,4 +1,5 @@
-## Project name - Read Comics
+## Project name - Find.me
+## Goal - Create website for Read Comics
 
 ### Project goal and it's benefits:<br>
 Our project was created for comic lovers. On this site you can read different comics for<br>
