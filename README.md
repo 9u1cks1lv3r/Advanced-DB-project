@@ -1,4 +1,3 @@
-# CSS 348 – ADVANCED DATABASE MANAGEMENT SYSTEMS
 ## Project name - Read Comics
 
 ### Project goal and it's benefits:<br>
